@@ -1,0 +1,15 @@
+# From project root (ai-framework)
+python -m venv .venv
+.venv\Scripts\Activate.ps1  # Windows PowerShell
+# source .venv/bin/activate # macOS/Linux
+
+pip install -r requirements.txt
+
+python train.py --input data/input --output data/output --epochs 10
+
+# Train and then generate outputs
+python train.py --input data/input --output data/output --gen generated
+
+python train.py --input data/input --output data/output --mode generator
+
+python train.py --input data/input --output data/output --mode gan
