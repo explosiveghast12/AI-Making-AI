@@ -1,3 +1,6 @@
+NOTE:
+There are text files in the input/output folders in order to test the training, it's not supposed to be a specific dataset.
+
 So, here's my journal of using AI to make AI:
 
 Using a more specific prompt seems to have helped so far.
